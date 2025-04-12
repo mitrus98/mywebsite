@@ -17,10 +17,16 @@
 	</head>
 	<body>
 		<nav class="navbar">
+			<button class="navbar__burger">
+				<i class="fas fa-bars burger-icon"></i>
+				<i class="fas fa-times close-burger-icon hide"></i>
+			</button>
 			<div class="navbar__logo">mituram.dev</div>
 			<ul class="navbar__menu">
-				<li><a href="#projects">Projekty</a></li>
-				<li><a href="#contact">Kontakt</a></li>
+				<li class="navbar__menu-item"><a href="#aboutme">About Me</a></li>
+				<li class="navbar__menu-item"><a href="#projects">Projects</a></li>
+				<li class="navbar__menu-item"><a href="#skills">Skills</a></li>
+				<li class="navbar__menu-item"><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 
@@ -28,55 +34,73 @@
 			<div class="wrapper">
 				<div class="hero__content">
 					<h1 class="hero__title">Hi!<br />I'am Michal</h1>
-					<p class="hero__subtitle">Frontend Developer</p>
+					<p class="hero__subtitle">Junior Frontend Developer</p>
 				</div>
 			</div>
 		</header>
 
 		<main>
+			<section class="aboutme" id="aboutme">
+				<div class="wrapper">
+					<h2 class="section-title">About Me</h2>
+					<div class="aboutme__box">
+						<p class="aboutme__box-text">
+							I am a graduate of the Information Technology Technical School -
+							during my schooling I took theoretical and practical classes and
+							gained qualifications in my profession. In 2023, I finished my
+							education at the Faculty of Electrical Engineering and Computer
+							Science of Lublin University of Technology as a student of
+							Computer Science of the first degree with an engineering degree.
+							Currently, I am continuing my education with a Master's degree. I
+							associate my future with the IT industry
+						</p>
+					</div>
+				</div>
+			</section>
+
 			<section class="projects" id="projects">
 				<div class="wrapper">
-					<h2 class="section-title">Projekty</h2>
+					<h2 class="section-title">Projects</h2>
 					<div class="projects__list">
 						<div class="project-card">
-							<h3 class="project-card__title">Projekt 1</h3>
-							<p class="project-card__desc">Krótki opis.</p>
-							<a href="#" class="project-card__link">Zobacz projekt</a>
+							<h3 class="project-card__title">Project 1</h3>
+							<p class="project-card__desc">Short description.</p>
+							<a href="#" class="project-card__link">View project</a>
 						</div>
 						<div class="project-card">
-							<h3 class="project-card__title">Projekt 2</h3>
-							<p class="project-card__desc">Krótki opis.</p>
-							<a href="#" class="project-card__link">Zobacz projekt</a>
+							<h3 class="project-card__title">Project 2</h3>
+							<p class="project-card__desc">Short description.</p>
+							<a href="#" class="project-card__link">View project</a>
 						</div>
 						<div class="project-card">
-							<h3 class="project-card__title">Projekt 3</h3>
-							<p class="project-card__desc">Krótki opis.</p>
-							<a href="#" class="project-card__link">Zobacz projekt</a>
+							<h3 class="project-card__title">Project 3</h3>
+							<p class="project-card__desc">Short description.</p>
+							<a href="#" class="project-card__link">View project</a>
 						</div>
 						<div class="project-card">
-							<h3 class="project-card__title">Projekt 4</h3>
-							<p class="project-card__desc">Krótki opis.</p>
-							<a href="#" class="project-card__link">Zobacz projekt</a>
+							<h3 class="project-card__title">Project 4</h3>
+							<p class="project-card__desc">Short description.</p>
+							<a href="#" class="project-card__link">View project</a>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="skils" id="skils">
+			<section class="skills" id="skills">
 				<div class="wrapper">
-					<h2 class="section-title">Umiejętności</h2>
-					<div class="skils-boxes">
-						<div class="skils-box">
+					<h2 class="section-title">Skills</h2>
+					<div class="skills-boxes">
+						<div class="skills-box">
+							<i class="fa-brands fa-html5"></i>
+						</div>
+						<div class="skills-box">
+							<i class="fa-brands fa-sass"></i>
+						</div>
+						<div class="skills-box">
 							<i class="fa-brands fa-gulp"></i>
 						</div>
-						<div class="skils-box">
-							<i class="fa-brands fa-gulp"></i>
-						</div>
-						<div class="skils-box">
-							<i class="fa-brands fa-gulp"></i>
-						</div>
-						<div class="skils-box">
-							<i class="fa-brands fa-gulp"></i>
+						<div class="skills-box">
+							<i class="fa-brands fa-square-js"></i>
 						</div>
 					</div>
 				</div>
@@ -84,8 +108,10 @@
 
 			<section class="contact" id="contact">
 				<div class="wrapper">
-					<h2 class="section-title">Kontakt</h2>
-					<p class="contact__text">Masz pytanie lub propozycję współpracy?</p>
+					<h2 class="section-title">Contact</h2>
+					<p class="contact__text">
+						Do you have a question or proposal for cooperation?
+					</p>
 					<a class="contact__email" href="mailto:mituramichal98@gmail"
 						>mituramichal98@gmail.com</a
 					>
